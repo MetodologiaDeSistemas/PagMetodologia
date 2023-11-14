@@ -11,15 +11,32 @@ const Servicios = () => {
 
            <h1>Servicios Disponibles</h1>
            <div className="grid-Servicios">
-            
+
                 <div className="Descripciones">
 
-                    lista
+                    <ul className="listdesc">
+                        
+                        <li><h3>Titulo:</h3> <div className="descrip">descripcion</div> </li>
+                        <li><h3>Titulo:</h3> <div className="descrip">descripcion</div> </li>
+                        <li><h3>Titulo:</h3>  <div className="descrip">descripcion</div> </li>
+                        <li><h3>Titulo:</h3>  <div className="descrip">descripcion</div> </li>
+
+                    </ul>
 
                 </div>
 
                 <div className="ListaPrecio">
-                    lista
+                    
+                    <ul className="listpres">
+
+                        <li> <h3>Titulo:</h3> descripcion </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+
+
                 </div>
                 
             </div>

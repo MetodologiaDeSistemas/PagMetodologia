@@ -9,13 +9,15 @@
 
 .Descripciones{
     grid-area: descrip ;
-    background-color: green;
+    background-color: transparent;
 
 }
 
 .ListaPrecio{
 
      grid-area: precio;
-    background-color: rgb(9, 20, 122);
+    background-color: transparent;
 }
 
+ul.listdesc {list-style-position:outside;}
+ul.listpres {list-style-position:outside;}
