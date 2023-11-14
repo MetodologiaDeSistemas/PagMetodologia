@@ -1,0 +1,21 @@
+.grid-Servicios{
+
+    display: grid;
+    grid-template-areas: ' descrip precio '
+    ' descrip precio ';
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:  auto auto ;
+}
+
+.Descripciones{
+    grid-area: descrip ;
+    background-color: green;
+
+}
+
+.ListaPrecio{
+
+     grid-area: precio;
+    background-color: rgb(9, 20, 122);
+}
+

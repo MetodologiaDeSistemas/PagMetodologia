@@ -1,5 +1,7 @@
-
+import Menu from "./../../Componentes/Menu/Menu";
+import Footer from "./../../Componentes/Footer/Footer";
 import React, { useState, useEffect } from 'react'
+import Style from "./Style.css";
 const Inicio = () =>{
 
  useEffect(() => {document.title = "NAS";});
@@ -7,12 +9,11 @@ const Inicio = () =>{
     return (
         <div>
             
-                <div className='Tilulo'>
 
-                    <h1> N.A.S.</h1>
-
-                </div>
-
+            <div className="eltitulo">
+                <h2>N.A.S</h2>
+                <h4>Punto de Belleza</h4>
+            </div>
            
 
         </div>

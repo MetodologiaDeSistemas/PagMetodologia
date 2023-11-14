@@ -1,0 +1,55 @@
+.error404{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 20% 60% 10%;
+    background-color: rgb(55, 234, 180);
+}
+
+.naverror404{
+    grid-column: 1/3;
+
+}
+
+.tituloerror404{
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+}
+
+div.tituloerror404{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainerror404{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+    
+}
+
+.footererror404{
+    grid-column: 1/4;
+}
+
+.titleerror404{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+
+}
+.titleerror404main, .textoerror404main{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+
+
+
+}
