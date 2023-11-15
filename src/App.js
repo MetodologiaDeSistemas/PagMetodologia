@@ -3,16 +3,16 @@ import Inicion from "./Componentes/Inicio/Inicio";
 import Horarios from "./Componentes/Horarios/Horarios";
 import Recursos from "./Componentes/Recursos/Recursos";
 import Servicios from "./Componentes/Servicios/Servicios";
-/*import Error404 from "./Componentes/Error404/Error404";*/
+import Error404 from "./Componentes/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Inicio from "./Componentes/Inicio/Inicio";
+import Tutorial from "./Componentes/Tutorial/Tutorial";
 
 
 function App() {
   return (
     <div >
 
-      <Servicios/>
+      <Tutorial/>
       
     </div>
   );
