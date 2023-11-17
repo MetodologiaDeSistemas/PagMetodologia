@@ -9,6 +9,7 @@ const Tutotial = () => {
 
     return (
         <div>
+            
             <h1 className="TTuto">Como pedir un turno</h1>
             <div  className="grid-tutorial">
                 <div className="caja CT">

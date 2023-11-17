@@ -14,9 +14,10 @@ const Inicio = () =>{
                 <h2>N.A.S</h2>
                 <h4>Punto de Belleza</h4>
             </div>
+            <Footer></Footer>
            
-
         </div>
+        
 
     )
 }
