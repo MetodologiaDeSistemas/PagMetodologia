@@ -1,18 +1,27 @@
-.eltitulo{
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black;
+
+.container{
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(44, 213, 176)
+    );
+    object-fit: content;
+    display: grid;
+    grid-template-areas: " head "
+                          "menu "
+                          "main "
+                          "body"
+                          "foot ";
 }
 
-h2{
-    font-size: 80px;
+.Header{ 
+    grid-area: head;
+
+}
+.Servi{
+    grid-area: menu;
+}
+.Tutorial{
+    grid-area: main;
 }
 
-h4{
-    font-size: 40px;
+.Footer{
+    grid-area: foot;
 }

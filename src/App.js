@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Componentes/Header/Titulo";
 import Inicion from "./Componentes/Inicio/Inicio";
 import Horarios from "./Componentes/Horarios/Horarios";
 import Recursos from "./Componentes/Recursos/Recursos";
@@ -12,7 +13,7 @@ function App() {
   return (
     <div >
 
-      <Horarios/>
+      <Inicion/>
       
     </div>
   );

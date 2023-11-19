@@ -1,5 +1,4 @@
-.caja{
-    margin-top: 30px;
+/*.caja{
     border: 2px solid black;
     background-color: white;
 }
@@ -10,11 +9,4 @@
     margin: auto;
 
 }
-
-.grid-tutorial{
-
-    display: grid;
-
-    grid-template-columns: auto;
-    grid-template-rows:  auto;
-}
+*/
