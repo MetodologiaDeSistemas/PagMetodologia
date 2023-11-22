@@ -7,13 +7,15 @@ import Servicios from "./Componentes/Servicios/Servicios";
 import Error404 from "./Componentes/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Tutorial from "./Componentes/Tutorial/Tutorial";
+import Depila from "./Componentes/Depila/Depila";
+import Galeria from "./Componentes/Galeria/Galeria";
 
 
 function App() {
   return (
     <div >
 
-      <Inicion/>
+      <Galeria/>
       
     </div>
   );

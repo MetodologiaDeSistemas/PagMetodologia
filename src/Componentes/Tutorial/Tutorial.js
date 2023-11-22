@@ -10,20 +10,32 @@ const Tutotial = () => {
 
     return (
         <div>
+           
+            <div class="containerlist">
+                <h1>Pasos para Pedir un Turno</h1>
+                <ul class="responsive-list">
+                    <li>Elemento sssssssssssss1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                    <li>Elemento 4</li>
+                    <li>Elemento 5</li>
+                </ul>
+            </div>
             
-            <h1 className="TTuto">Como pedir un turno</h1>
-            <div  className="grid-tutorial">
-                <div className="caja CT">
-                    <ul>
-                        <li>Primero</li>
+        </div>
+    )
+}
+export default Tutotial
+
+/* <div  className="grid-tutorial">
+                <div className="CT">
+                    <h1 className="Tuto">Como pedir un turno</h1>
+                    <ul className="responsive-list">
+                        <li>Primeraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaao</li>
                         <li>despues</li>
                         <li>llamar</li>
                         <li>etc</li>
                         <li></li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    )
-}
-export default Tutotial
+            </div> */

@@ -1,7 +1,7 @@
 import Titulo from "./Titulo.css";
 import React from "react";
 import LogoNas from "../../Componentes/img/LogoNas.png";
-const Cabeza = ({logo}) => {
+const Cabeza = () => {
 
     return(
         <div>

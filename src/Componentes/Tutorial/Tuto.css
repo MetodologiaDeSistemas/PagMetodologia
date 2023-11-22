@@ -1,12 +1,40 @@
-/*.caja{
-    border: 2px solid black;
-    background-color: white;
+.containerlist {
+    background: transparent;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.TTuto{
+h1 {
+    text-align: center;
+}
 
-    width:300px;
+.responsive-list {
+    list-style: none;
+    padding: 0;
+}
+
+.responsive-list li {
+    padding: 10px;
+}
+
+/* Estilos para hacer la lista responsiva */
+@media screen and (max-width: 600px) {
+    .responsive-list li {
+        font-size: 14px;
+    }
+}
+.responsive-list{
+    flex: auto;
     margin: auto;
-
+    background: #ff9999;
+    padding: 30px;
 }
-*/
+
+.responsive-list li{
+    
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin: auto;
+}

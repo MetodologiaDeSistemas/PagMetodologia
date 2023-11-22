@@ -5,11 +5,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
  
 const Servicios = () => {
-
-    return (
-        <div>
-
-           <h1>Servicios Disponibles</h1>
+/*<h1>Servicios Disponibles</h1>
            <div className="grid-Servicios">
 
                 <div className="Descripciones">
@@ -41,8 +37,67 @@ const Servicios = () => {
                 
             </div>
 
-        </div>
+        </div> */
+    return (
+        
+             <div className="tableconten">
+      <h1>Servicios Disponibles</h1>
+
+      <table id="customers">
+        <thead>
+          <tr>
+            <th>Servicios</th>
+            <th>Precios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Manicura</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Pericura</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Manicura y Pericura</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Esmaltado: </td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Quitar Esmalte:</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Cortes de Uñas</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Depilacion Fefinitiva</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Masajes</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>North/South Marie Bertrandaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaa</td>
+            <td>Simon Crowther</td>
+          </tr>
+          <tr>
+            <td>Paris spécialités</td>
+            <td>$</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+        
     )
 }
 
 export default Servicios
+

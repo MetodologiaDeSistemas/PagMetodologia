@@ -1,9 +1,8 @@
 
 .container{
+    
     background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(44, 213, 176)
     );
-    object-fit: content;
-    display: grid;
     grid-template-areas: " head "
                           "menu "
                           "main "
