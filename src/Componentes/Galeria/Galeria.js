@@ -1,4 +1,4 @@
-import Gale from "./Gale.css";
+/*import Gale from "./Gale.css";
 import imagen1 from '../../Componentes/img/imagen1.png';
 import imagen2 from '../../Componentes/img/imagen2.png';
 import imagen3 from '../../Componentes/img/imagen3.png';
@@ -41,3 +41,4 @@ const Galeria = () => {
   }
 
   export default Galeria;
+  */

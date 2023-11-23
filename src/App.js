@@ -2,20 +2,18 @@ import React from "react";
 import Header from "./Componentes/Header/Titulo";
 import Inicion from "./Componentes/Inicio/Inicio";
 import Horarios from "./Componentes/Horarios/Horarios";
-import Recursos from "./Componentes/Recursos/Recursos";
 import Servicios from "./Componentes/Servicios/Servicios";
 import Error404 from "./Componentes/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Tutorial from "./Componentes/Tutorial/Tutorial";
-import Depila from "./Componentes/Depila/Depila";
-import Galeria from "./Componentes/Galeria/Galeria";
+import Depila from "./Componentes/Depilacer/Depilacer";
 
 
 function App() {
   return (
     <div >
 
-      <Galeria/>
+      <Depila/>
       
     </div>
   );
