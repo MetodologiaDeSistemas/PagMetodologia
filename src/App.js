@@ -7,13 +7,14 @@ import Error404 from "./Componentes/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Tutorial from "./Componentes/Tutorial/Tutorial";
 import Depila from "./Componentes/Depilacer/Depilacer";
+import  Nav from "./Componentes/Nav/Nav";
 
 
 function App() {
   return (
     <div >
 
-      <Depila/>
+      <Inicion/>
       
     </div>
   );

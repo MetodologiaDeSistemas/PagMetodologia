@@ -13,6 +13,8 @@ const Depilacer = () => {
                 EL Día: <input type="text" />
               </label>
               <br />
+              <br />
+
               <label>
                 Del Mes: <input type="text" />
               </label>

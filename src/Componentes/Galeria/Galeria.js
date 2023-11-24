@@ -14,7 +14,7 @@ const Galeria = () => {
     return (
 
 
-        <div className='image-container'>
+        <div className='image-contenedor'>
           <Card className='card1'>
             <h2 className='titulo'>Manicura</h2>
             <Card.Img id='img' variant='top' src={imagen1} />

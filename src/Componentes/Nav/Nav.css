@@ -1,0 +1,77 @@
+.navbar {
+    background-color: #007bff; /* Color de fondo de la barra de navegación */
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important; /* Color del texto en la barra de navegación */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Color del ícono del botón de alternar */
+    border: 1px solid #007bff; /* Agrega color al ícono del botón de alternar */
+    border-radius: 4px; /* Hace que el borde del ícono sea más redondeado */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none; /* Eliminar el resplandor del botón de alternar al hacer clic */
+  }
+  
+  .navbar-toggler:hover {
+    background-color: #0056b3; /* Color de fondo cuando se pasa el puntero sobre el botón de alternar */
+  }
+  
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background-color: #0056b3; /* Color de fondo del ícono del botón de alternar cuando está expandido */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0056b3 !important; /* Color del texto cuando se pasa el puntero sobre los enlaces */
+    
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold; /* Estilo del texto del enlace activo */
+    color: #0056b3 !important; /* Color del texto del enlace activo */
+  }
+
+
+  /*Manejo del alineado de los iconos de la barra de navegacion*/
+  
+  .nav-bar-toggler{
+    border: none;
+  }  
+
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand, .navbar-nav, .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: space-between;
+    }
+  }
+
+  .navbar-collapse {
+    justify-content:center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-nav .login-link {
+    margin-right: auto; /* Mueve el enlace de inicio de sesión a la izquierda */
+  }
+
+  .navbar-nav.ml-auto {
+    margin-right: auto;
+  }

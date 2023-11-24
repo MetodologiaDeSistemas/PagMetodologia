@@ -1,26 +1,42 @@
-
-.container{
-    
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(44, 213, 176)
-    );
-    grid-template-areas: " head "
-                          "menu "
-                          "main "
-                          "body"
-                          "foot ";
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-.Header{ 
+
+.contenpag {
+    display: grid;
+    min-height: 100vh; /* Establece un alto mínimo del 100% de la ventana */
+    margin: 0;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(44, 213, 176));
+    grid-template-areas: 
+        "head"
+        "menu"
+        "main"
+        "body"
+        "foot";
+    grid-template-rows: auto auto auto 1fr auto;
+}
+
+.Header {
     grid-area: head;
-
 }
-.Servi{
+
+.Nav {
     grid-area: menu;
 }
-.Tutorial{
+
+.Servi {
     grid-area: main;
 }
 
-.Footer{
+.Tutorial {
+    grid-area: body;
+}
+
+.Footer {
     grid-area: foot;
 }
