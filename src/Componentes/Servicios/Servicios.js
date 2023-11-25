@@ -18,8 +18,8 @@ const Servicios = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Manicuría Tradicional</td>
-            <td>$ <label className="manicuratrad"></label> </td>
+            <td>Manicura Tradicional</td>
+            <td>$ <label className="manicuratrad">3000</label></td>
           </tr>
           <tr>
             <td>Esmaltado Semi Permanente</td>

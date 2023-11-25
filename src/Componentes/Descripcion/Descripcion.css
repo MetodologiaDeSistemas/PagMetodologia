@@ -1,0 +1,40 @@
+.descconten {
+    background: transparent;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.responsdesc {
+    list-style: none;
+    padding: 0;
+}
+
+.responsdesc li {
+    padding: 10px;
+}
+
+/* Estilos para hacer la lista responsiva */
+@media screen and (max-width: 600px) {
+    .responsdesc .caj2 {
+        font-size: 14px;
+    }
+}
+.responsdesc{
+    flex: auto;
+    margin: auto;
+    background: #ff9999;
+    padding: 30px;
+}
+
+.responsdesc .caj2{
+    
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin: auto;
+}

@@ -6,8 +6,7 @@ import Login from "./../Login/Login";
 import Galeria from "./../Galeria/Galeria";
 import Horarios from "./../Horarios/Horarios";
 import Inicio from "./../Inicio/Inicio";
-import Descripcion from "./../Descripcion/Descripcion";
-
+import Descripcion from "../Descripcion/Descripcion";
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);

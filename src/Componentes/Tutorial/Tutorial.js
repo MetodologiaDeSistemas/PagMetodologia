@@ -1,9 +1,7 @@
 import Footer from "../Footer/Footer";
 import Tuto from "./Tuto.css";
 import React, { useState, useEffect } from 'react';
-import Inicio from "../Inicio/Inicio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 const Tutotial = () => {
 
@@ -25,16 +23,3 @@ const Tutotial = () => {
     )
 }
 export default Tutotial
-
-/* <div  className="grid-tutorial">
-                <div className="CT">
-                    <h1 className="Tuto">Como pedir un turno</h1>
-                    <ul className="responsive-list">
-                        <li>Primeraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaao</li>
-                        <li>despues</li>
-                        <li>llamar</li>
-                        <li>etc</li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div> */

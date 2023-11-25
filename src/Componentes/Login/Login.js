@@ -3,7 +3,6 @@ import './Login.css'
 function Login() {
   return (
     <div className="Contenedor">
- 
     <form className="form_iniciar">
     <h1 className="titulo_1" >Login</h1>  
     <label className="title_label">Usuario: </label>
