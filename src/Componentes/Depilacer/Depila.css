@@ -4,8 +4,14 @@
   padding: 2vw; /* Ajusta el espaciado interno según el ancho de la pantalla */
   margin: 2vw; /* Ajusta los márgenes externos según el ancho de la pantalla */
   border-radius: 2vw; /* Ajusta los bordes redondeados según el ancho de la pantalla */
-  max-width: 400px;
-  max-height: 200px;
+
+  
+}
+.margendepi{
+  background: transparent;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .aviso {

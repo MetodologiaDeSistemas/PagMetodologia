@@ -1,4 +1,3 @@
-import Menu from "./../../Componentes/Menu/Menu";
 import Tutorial from "./../../Componentes/Tutorial/Tutorial";
 import Footer from "./../../Componentes/Footer/Footer";
 import Header from "./../../Componentes/Header/Titulo";

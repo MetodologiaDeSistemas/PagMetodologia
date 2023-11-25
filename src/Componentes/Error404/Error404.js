@@ -1,15 +1,15 @@
 import React from 'react'
-import Menu from "../Menu/Menu";
 import Footer from "../Footer/Footer"
 import MensajeError from "../Error404/MensajeError"
 import TituloError from './TituloError';
 import Style from "./Style.css"
+import Nav from '../Nav/Nav';
 
 const Error404 = () => {
     return (
         <div className="error404">
             <div className="naverror404">
-            <Menu></Menu>
+            <Nav></Nav>
             </div>
 
             <div className="tituloerror404">

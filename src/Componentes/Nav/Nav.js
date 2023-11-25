@@ -23,10 +23,10 @@ const Header = () => {
           <Nav.Link href="/Login">Iniciar Sesión</Nav.Link>
         </Nav>
         <Nav className="mr-auto ml-auto">
-          <Nav.Link href="#Inicio">Inicio</Nav.Link>
-          <Nav.Link href="#Horarios">Horarios</Nav.Link>
-          <Nav.Link href="#Descripcion">Servicios</Nav.Link>
-          <Nav.Link href="#Galeria">Trabajos Realizados</Nav.Link>
+          <Nav.Link href="/">Inicio</Nav.Link>
+          <Nav.Link href="/Horarios">Horarios</Nav.Link>
+          <Nav.Link href="/Descripcion">Servicios</Nav.Link>
+          <Nav.Link href="/Galeria">Trabajos Realizados</Nav.Link>
         </Nav>
         
       </Navbar.Collapse>

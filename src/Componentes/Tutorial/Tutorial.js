@@ -1,4 +1,3 @@
-import Menu from "../Menu/Menu";
 import Footer from "../Footer/Footer";
 import Tuto from "./Tuto.css";
 import React, { useState, useEffect } from 'react';
