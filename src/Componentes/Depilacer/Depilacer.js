@@ -1,6 +1,9 @@
 import Depila from "./Depila.css";
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
+import imagen2 from '../../Componentes/img/imagen2.png';
+import { Card } from "react-bootstrap";
+import Gale from "./../../Componentes/Galeria//Gale.css";
 
 function Depilacer() {
   const [ElegDia, setElegDia] = useState ("Día");
@@ -8,17 +11,34 @@ function Depilacer() {
 
 
   const handleChange = (event) => {
-    setElegDia(event.target.value)
-
-  }
+    setElegDia(event.target.value)}
 
     return (
       <div>
         <div className="margendepi">
         <div className="DipiPispo">
           <div className="aviso">
-            <h4>Proxima fecha disponible para la Depilacion Definitiva</h4>
+            <div className="cajimdepi"><Card.Img id='img' variant='top' src={imagen2} /></div>
+            <br />
+            <br />
+            <h4>Proxima fecha disponible para Depilacion Definitiva</h4>
+            <br />
+            <br />
             <form>
+              <h5>EL Día: <label className="Día-Depi"></label></h5> 
+              <br />
+              <br />
+              <h5>Del Mes: <label className="Mes-Depi"></label></h5>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    );
+    }
+  
+  export default Depilacer;
+  /*<form>
             <label>
                 EL Día:
               </label>
@@ -78,13 +98,4 @@ function Depilacer() {
                 </select>
               </label>
               
-            </form>
-          </div>
-        </div>
-      </div>
-      </div>
-    );
-    }
-  
-  export default Depilacer;
-  
+            </form> */

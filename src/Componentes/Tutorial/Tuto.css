@@ -12,6 +12,8 @@ h1 {
 .responsive-list {
     list-style: none;
     padding: 0;
+    word-wrap: break-word; /* Ajusta el texto al ancho máximo del contenedor */
+
 }
 
 .responsive-list li {
@@ -38,3 +40,18 @@ h1 {
     padding: 5px;
     margin: auto;
 }
+
+.cajimgtelefmano {
+    padding: 10px;
+    word-wrap: break-word;
+    width: 25%;
+    float: right;
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+.cajimgtelefmano img {
+    width: 100%; /* Utiliza el 100% del ancho del contenedor */
+    height: auto;
+    max-width: 100px; /* Establece un ancho máximo para la imagen */
+}
+

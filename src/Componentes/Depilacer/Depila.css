@@ -4,7 +4,6 @@
   padding: 2vw; /* Ajusta el espaciado interno según el ancho de la pantalla */
   margin: 2vw; /* Ajusta los márgenes externos según el ancho de la pantalla */
   border-radius: 2vw; /* Ajusta los bordes redondeados según el ancho de la pantalla */
-
   
 }
 .margendepi{
@@ -19,3 +18,7 @@
   text-align: center;
   color: black;
 }
+
+.cajimdepi{
+
+  border: 2px solid rgb(31, 181, 218);}
