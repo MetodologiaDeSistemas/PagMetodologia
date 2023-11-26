@@ -3,8 +3,8 @@ import Footer from "./../../Componentes/Footer/Footer";
 import Header from "./../../Componentes/Header/Titulo";
 import React, { useState, useEffect } from 'react'
 import Style from "./Style.css";
-import Servicios from "./../../Componentes/Servicios/Servicios";
 import Nav from "./../../Componentes/Nav/Nav";
+import Precios from "./../../Componentes/Precios/Precios";
 const Inicio = () =>{
 
  useEffect(() => {document.title = "NAS";});
@@ -16,7 +16,7 @@ const Inicio = () =>{
 
             <div className={Style.Header}><Header></Header></div>
             <div className={Style.Nav}><Nav></Nav></div>
-            <div className={Style.Servi}><Servicios></Servicios></div>
+            <div className={Style.Servi}><Precios></Precios></div>
 
             <div className={Style.Tutorial}> <Tutorial></Tutorial></div>
             <div className={Style.Footer}> <Footer></Footer></div>

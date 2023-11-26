@@ -21,7 +21,7 @@ const Galeria = () => {
         <div className={Style.Nav}><Nav></Nav></div>
 
 
-        <div className='image-contenedor'>
+        <div className='imagecontenedor'>
           <Card className='card1'>
             <h2 className='titulo'>Manicura</h2>
             <Card.Img id='img' variant='top' src={imagen1} />

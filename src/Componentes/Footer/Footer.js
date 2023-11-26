@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
         <div className="footer-links">
         <a href="/contacto">Whatsapp:</a>
-        <a href="/servicios">Instagram:</a>
+        <a href="/insta">Instagram:</a>
         <a href="/nosotros">Nosotros</a>
       </div>
       <p>&copy; 2023 - Nas - Espacio de Belleza</p>

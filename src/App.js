@@ -4,7 +4,7 @@ import Horarios from "./Componentes/Horarios/Horarios";
 import Error404 from "./Componentes/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Galeria from "./Componentes/Galeria/Galeria";
-import Descripcion from "./Componentes/Descripcion/Descripcion";
+import Servicios from "./Componentes/Servicios/Servicios";
 import Login from "./Componentes/Login/Login";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Routes>
         <Route path = "/" element = {<Inicion/>}/>
         <Route path = "/Horarios" element = {<Horarios/>}/>
-        <Route path = "/Descripcion " element = {<Descripcion/>}/>
+        <Route path="/Servicios" element = {<Servicios/>}/>
         <Route path = "/Galeria" element = {<Galeria/>}/>
         <Route path = "/Login" element = {<Login/>}/>
         <Route path = "*" element = {<Error404/>}/>

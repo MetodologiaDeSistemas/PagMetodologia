@@ -1,0 +1,102 @@
+.descconten {
+    background: transparent;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cajext {
+    list-style: none;
+    padding: 20px;
+}
+
+.cajext .cajint {
+    padding: 10px;
+}
+
+/* Estilos para hacer la lista responsiva */
+@media screen and (max-width: 600px) {
+    .cajext .cajint {
+        font-size: 14px;
+    }
+}
+.cajext1{
+    flex: auto;
+    margin: auto;
+    /*background: linear-gradient(#ffd0c0, #fbbcd7, #edbcfb, #d3bcfb,#bcd3fb);*/
+    background-image: url('../../Componentes/img/fondoservi.png');
+    background-size: 100% 100%; /* Ajusta según tus necesidades */
+    background-position: center;
+    padding: 30px;
+}
+
+.cajext1 .cajint1{
+    
+    background: #ffb399;
+    opacity: 0.6;
+    color: rgb(61, 18, 0);
+    padding: 5px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.cajext1 .cajint2{
+    
+    background: #ff99c5;
+    opacity: 0.6;
+    color: rgb(83, 0, 0);
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+
+}
+
+.cajext1 .cajint3{
+    
+    background: #ff99fd;
+    opacity: 0.6;
+    color: rgb(57, 0, 54);
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+
+}
+
+.cajext1 .cajint4{
+    
+    background: rgb(223, 153, 255);
+    opacity: 0.6;
+    color: rgb(46, 6, 50);
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+
+}
+
+.cajext1 .cajint5{
+    
+    background: rgb(153, 194, 255);
+    opacity: 0.6;
+    color: black;
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+
+}
+
+/*ajuste del texto*/
+
+.cajext1 .cajint1,
+.cajext1 .cajint2,
+.cajext1 .cajint3,
+.cajext1 .cajint4,
+.cajext1 .cajint5 {
+
+    padding: 10px;
+    word-wrap: break-word; /* Ajusta el texto al tamaño de la caja */
+    height: 100%; /* Hace que la caja ocupe el 100% de la altura de su contenedor */
+}

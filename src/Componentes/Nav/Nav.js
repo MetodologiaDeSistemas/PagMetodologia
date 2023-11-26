@@ -6,7 +6,7 @@ import Login from "./../Login/Login";
 import Galeria from "./../Galeria/Galeria";
 import Horarios from "./../Horarios/Horarios";
 import Inicio from "./../Inicio/Inicio";
-import Descripcion from "../Descripcion/Descripcion";
+import Servicios from "../Servicios/Servicios";
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
@@ -24,7 +24,7 @@ const Header = () => {
         <Nav className="mr-auto ml-auto">
           <Nav.Link href="/">Inicio</Nav.Link>
           <Nav.Link href="/Horarios">Horarios</Nav.Link>
-          <Nav.Link href="/Descripcion">Servicios</Nav.Link>
+          <Nav.Link href="/Servicios">Servicios</Nav.Link>
           <Nav.Link href="/Galeria">Trabajos Realizados</Nav.Link>
         </Nav>
         
