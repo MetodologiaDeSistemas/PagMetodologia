@@ -3,13 +3,7 @@ import Nav from "./../../Componentes/Nav/Nav";
 import Header from "./../../Componentes/Header/Titulo";
 import Style from "./../../Componentes/Inicio/Style.css";
 import "./servi.css"
-import caru1 from "./../img/CARU1.png";
-import caru2 from "./../img/CARU12.png";
-import caru3 from "./../img/CARU123.png";
-import { Carousel } from 'react-bootstrap';
 
-import Horarios from "../Horarios/Horarios";
-import HorarioCliente from "../Horarios/HorarioCliente";
 
 function ServiciosLista () {
 
