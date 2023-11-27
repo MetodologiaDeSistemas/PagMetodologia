@@ -4,7 +4,7 @@ import Header from "./../../Componentes/Header/Titulo";
 import React, { useState, useEffect } from 'react'
 import Style from "./Style.css";
 import Nav from "./../../Componentes/Nav/Nav";
-import Precios from "../Precios/Precios";
+import Cli_pre_serv from "../Precios/Cli_pre_serv";
 const Inicio = () =>{
 
  useEffect(() => {document.title = "NAS";});
@@ -16,7 +16,7 @@ const Inicio = () =>{
 
             <div className={Style.Header}><Header></Header></div>
             <div className={Style.Nav}><Nav></Nav></div>
-            <div className={Style.Servi}><Precios></Precios></div>
+            <div className={Style.Servi}><Cli_pre_serv/></div>
 
             <div className={Style.Tutorial}> <Tutorial></Tutorial></div>
             <div className={Style.Footer}> <Footer></Footer></div>

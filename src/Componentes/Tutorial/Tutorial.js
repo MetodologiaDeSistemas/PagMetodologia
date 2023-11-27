@@ -10,18 +10,14 @@ const Tutotial = () => {
         <div>
            
             <div class="containerlist">
-                <h1>Pasos para Pedir Turno</h1>
+                <h1>Pedi tu Turno aquí</h1>
                 <ul class="responsive-list">
                 <div className="cajimgtelefmano"><Card.Img id='img' variant='top' src={manostelef} /></div>
-                    <li> Nuestro local se encuentra en:""  </li>
-                    <li>Horarios de atencio al cliente de Lunea a Lunes de </li>
-                    <li>Para ajendar un turno mande un mensaje al número "" (solo se aceptan mensajes)</li>
-                    <li>IMPORTANTE: Tenga en cuenta que al agendar un turno tendra que pagar una comision por adelanto de $0000 </li>
-                    <li>Antes de pedir un turno recuerde comprobar en la seccion "Horarios" si se encuentra disponible el día y el horario que desea </li>
-                    <li>Enterese de que tratan todos los servicios de los que disponemos en nuestra seccion de "Servicios" o ver los resultados en nuestra seccion de "Trabajos Realizados" </li>
+                    <li>Días y horarios de atencio de Lunea a Viernes de 15-20 hs, Sabados de 9-13 hs </li>
+                    <li>Para agendar turnos mensajes al  <button className="what"><a href="https://wa.me/5493816385124?text=Hola quisiera pedir un turno" target='_blank'>"3816385124"</a></button> (solo se aceptan mensajes)</li>
+                    <li>IMPORTANTE: Tenga en cuenta que al solicitar un turno debera abonar una seña de $1000 NO REEMBONSABLE </li>
+                    <li> Nuestro local se encuentra en:"Lucio Victtorio Mansilla 277"  </li>
                     <li> </li>
-                    <li> </li>
-                    <li> Tip de ubucacion: El local se encuentra en la esquina de la cuadra frente a una plaza. El frente del local es rustico y gris tiene una puerta con berjas negras </li>
                 </ul>
             </div>
             

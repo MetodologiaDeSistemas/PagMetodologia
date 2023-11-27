@@ -42,5 +42,6 @@
   "description": "<<<<<<< HEAD\r # Getting Started with Create React App",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }

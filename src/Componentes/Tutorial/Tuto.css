@@ -54,4 +54,7 @@ h1 {
     height: auto;
     max-width: 100px; /* Establece un ancho máximo para la imagen */
 }
-
+.what{
+    border: none;
+    background: none;
+}

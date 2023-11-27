@@ -17,11 +17,11 @@ function ServiciosLista () {
 
                 <h1>Listado de Serivicios Disponibles</h1>
                 <div className="servilist">
-                    <div className="servimanicura">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-                    <div className="serviesmaltado">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-                    <div className="serviretiroesmal">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-                    <div className="servicejperfi">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-                    <div className="servidefini">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+                    <div className="servimanicura">MAnicura Tradicional: realizamos acepsia, corte, limado, repujamos cuticulas, corte si es necesario de las mismas, exfoliacion, esmaltado e hidratación</div>
+                    <div className="serviesmaltado">Esmaltado Semi Permanente: realizamos acepsia, corte, limado, manicuria rusa, preparacion de la uña, esmaltado semi permanente e hidratación</div>
+                    <div className="serviretiroesmal">Retiro de Esmalte: quimico, se lo realiza con removedor, tiempo estimado 20 minutos. Mecanico, se lo realiza con torno, tiempo estimado 8 minutos</div>
+                    <div className="servicejperfi">Perfilado de cejas: da forma a tus cejas de una manera armoniosa para cada tipo de rostro, incluye limpieza, recorte y medidas. Obcional color</div>
+                    <div className="servidefini">Depilación Definitiva: procedimiento laser para la eliminación de vello no deseado, el tratamiento es de 6 a 8 seciones aproximadamente, mas info a nuestro whatsapp</div>
 
                 </div>
              </div>
