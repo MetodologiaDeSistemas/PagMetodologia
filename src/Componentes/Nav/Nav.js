@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../Nav/Nav.css';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Login from "./../Login/Login";
-import Galeria from "./../Galeria/Galeria";
-import Horarios from "./../Horarios/Horarios";
-import Inicio from "./../Inicio/Inicio";
-import Servicios from "../Servicios/Servicios";
+
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
@@ -23,7 +18,7 @@ const Header = () => {
         </Nav>
         <Nav className="mr-auto ml-auto">
           <Nav.Link href="/">Inicio</Nav.Link>
-          <Nav.Link href="/Horarios">Horarios</Nav.Link>
+          <Nav.Link href="/HorariosFront">Horarios</Nav.Link>
           <Nav.Link href="/Servicios">Servicios</Nav.Link>
           <Nav.Link href="/Galeria">Trabajos Realizados</Nav.Link>
         </Nav>

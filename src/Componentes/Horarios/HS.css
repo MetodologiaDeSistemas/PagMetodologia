@@ -1,31 +1,31 @@
-.tableconten {
+.horarios {
     overflow-x: auto;
-    margin: 2%;
+    margin: 20px;
   }
   
-  #customers {
+  #tablahoras {
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 90%;
+    width: 100%;
   }
   
-  #customers td,
-  #customers th {
+  #tablahoras td,
+  #tablahoras th {
     border: 1px solid #ddd;
     padding: 8px;
     word-wrap: break-word; /* Permitirá que las palabras largas se dividan y se muevan a la siguiente línea */
   }
   
-  #customers tr:nth-child(even) {
+  #tablahoras tr:nth-child(even) {
     background-color: #f2f2f2;
   }
   
-  #customers tr:hover {
+  #tablahoras tr:hover {
     background-color: #ddd;
   }
   
-  #customers th {
+  #tablahoras th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
@@ -34,13 +34,13 @@
   }
   
   @media screen and (max-width: 600px) {
-    #customers td,
-    #customers th {
+    #tablahoras td,
+    #tablahoras th {
       display: block;
       box-sizing: border-box;
     }
   
-    #customers th {
+    #tablahoras th {
       text-align: center;
     }
   }

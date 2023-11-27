@@ -21,6 +21,7 @@ body, html {
     grid-template-rows: auto auto auto 1fr auto;
 }
 
+
 .Header {
     grid-area: head;
 }

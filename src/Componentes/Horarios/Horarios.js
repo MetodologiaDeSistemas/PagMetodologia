@@ -1,52 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Horarios.css';
-import Footer from "./../../Componentes/Footer/Footer";
-import Header from "./../../Componentes/Header/Titulo";
-import Nav from "./../../Componentes/Nav/Nav";
-import Depilacer from '../Depilacer/Depilacer';
-import Style from "./../../Componentes/Inicio/Style.css";
+import { Button } from 'react-bootstrap';
+import HorarioCliente from '../Horarios/HorarioCliente.js';
+
 
 const Horarios = () => {
   const daysOfWeek = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
-  const timeSlots = ['9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM'];
+  const horariosDisponibles = ['15:00 - 20:00', 'Cerrado'];
 
-  // Puedes ajustar esta información según tus necesidades
+  const [selectedHorarios, setSelectedHorarios] = useState({});
+
+  const handleHorarioChange = (day, value) => {
+    const updatedHorarios = { ...selectedHorarios, [day]: value };
+    setSelectedHorarios(updatedHorarios);
+  };
+
+  const handleGuardarCambios = () => {
+    console.log('Cambios guardados:', selectedHorarios);
+  };
 
   return (
-    <div className="contenpag">
-    <div className={Style.Header}><Header></Header></div>
-    <div className={Style.Nav}><Nav></Nav></div>
-
-
-    <div className="horarios">
-      <table>
-        <thead>
-          <tr>
-            <th>Hora</th>
-            {daysOfWeek.map((day, index) => (
-              <th key={index}>{day}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {timeSlots.map((time, index) => (
-            <tr key={index}>
-              <td>{time}</td>
-              {daysOfWeek.map((day, dayIndex) => (
-                <td key={dayIndex}>{/* Aquí puedes colocar información específica para cada celda */}</td>
+    <div>
+      <div className="horarios-administrador">
+        <table className="horarios-table">
+          <thead>
+            <tr>
+              {daysOfWeek.map((day, index) => (
+                <th key={index}>
+                  {day}
+                  <br />
+                  <select onChange={(e) => handleHorarioChange(day, e.target.value)}>
+                    {horariosDisponibles.map((horario, optionIndex) => (
+                      <option key={optionIndex}>{horario}</option>
+                    ))}
+                  </select>
+                </th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-
-    <div className={Style.Depilacer}><Depilacer></Depilacer></div>
-
-
-
-    <div className={Style.Footer}> <Footer></Footer></div>
-
+          </thead>
+        </table>
+        <br />
+        <br />
+        <Button variant="secondary" onClick={handleGuardarCambios}>
+          Guardar
+        </Button>
+      </div>
+      <HorarioCliente horariosSeleccionados={selectedHorarios} />
     </div>
   );
 };

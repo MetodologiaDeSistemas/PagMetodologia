@@ -1,3 +1,94 @@
+.servicioslista{
+    background: transparent;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; 
+}
+h1 {
+    text-align: center;
+}
+
+.servilist {
+    margin: auto;
+    /*background: linear-gradient(#ffd0c0, #fbbcd7, #edbcfb, #d3bcfb,#bcd3fb);*/
+    background-image: url('../../Componentes/img/fondoservi.png');
+    background-size: 100% 100%; 
+    background-position: center;
+    padding: 3vw;
+}
+
+.servimanicura{
+    
+    background: #ffb399;
+    opacity: 0.6;
+    color: rgb(61, 18, 0);
+    padding: 5px;
+    margin: auto;
+    margin-top: 3px;
+    word-wrap: break-word;
+}
+
+.serviesmaltado{
+    
+    background: #ff99c5;
+    opacity: 0.6;
+    color: rgb(83, 0, 0);
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+    word-wrap: break-word;
+
+}
+
+.serviretiroesmal{
+    
+    background: #ff99fd;
+    opacity: 0.6;
+    color: rgb(57, 0, 54);
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+    word-wrap: break-word;
+
+}
+
+.servicejperfi{
+    
+    background: rgb(223, 153, 255);
+    opacity: 0.6;
+    color: rgb(46, 6, 50);
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+    word-wrap: break-word;
+
+}
+
+.servidefini{
+    
+    background: rgb(153, 194, 255);
+    opacity: 0.6;
+    color: black;
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+    word-wrap: break-word;
+
+}
+
+@media screen and (max-width: 200px) {
+    .servilist,
+    .servimanicura,
+    .serviesmaltado,
+    .serviretiroesmal,
+    .servicejperfi,
+    .servidefini {
+        font-size: 5px;
+    }
+}
+
+/*________________________________________________________________________________________________________________
+
 .descconten {
     background: transparent;
     max-width: 1500px;
@@ -18,7 +109,6 @@ h1 {
     padding: 10px;
 }
 
-/* Estilos para hacer la lista responsiva */
 @media screen and (max-width: 600px) {
     .cajext .cajint {
         font-size: 14px;
@@ -27,9 +117,9 @@ h1 {
 .cajext1{
     flex: auto;
     margin: auto;
-    /*background: linear-gradient(#ffd0c0, #fbbcd7, #edbcfb, #d3bcfb,#bcd3fb);*/
+    /*background: linear-gradient(#ffd0c0, #fbbcd7, #edbcfb, #d3bcfb,#bcd3fb);
     background-image: url('../../Componentes/img/fondoservi.png');
-    background-size: 100% 100%; /* Ajusta según tus necesidades */
+    background-size: 100% 100%; /* Ajusta según tus necesidades 
     background-position: center;
     padding: 30px;
 }
@@ -88,8 +178,6 @@ h1 {
 
 }
 
-/*ajuste del texto*/
-
 .cajext1 .cajint1,
 .cajext1 .cajint2,
 .cajext1 .cajint3,
@@ -97,6 +185,6 @@ h1 {
 .cajext1 .cajint5 {
 
     padding: 10px;
-    word-wrap: break-word; /* Ajusta el texto al tamaño de la caja */
-    height: 100%; /* Hace que la caja ocupe el 100% de la altura de su contenedor */
-}
+    word-wrap: break-word; /* Ajusta el texto al tamaño de la caja 
+    height: 100%; /* Hace que la caja ocupe el 100% de la altura de su contenedor 
+}*/

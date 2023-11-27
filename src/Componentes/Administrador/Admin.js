@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Nav from "./../../Componentes/Nav/Nav";
 import Style from "./../../Componentes/Inicio/Style.css";
 
-const Admin = () =>{
+function Admin () {
 
     return (
         

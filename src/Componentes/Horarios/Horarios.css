@@ -1,6 +1,40 @@
 
 .horarios {
-    margin-top: 20px;
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: auto; /* Hacer que la tabla sea desplazable horizontalmente en pantallas pequeñas */
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.horarios-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.horarios-table th, .horarios-table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.horarios-table select {
+  width: 100%; /* Ajustar el ancho del select al 100% del contenedor */
+}
+/*.horarios {
+    margi-top: 20px;
   }
   
   table {
@@ -16,5 +50,4 @@
   
   th {
     background-color: #f2f2f2;
-  }
-  
+  }*/

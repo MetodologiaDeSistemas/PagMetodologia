@@ -4,7 +4,8 @@ import Header from "./../../Componentes/Header/Titulo";
 import React, { useState, useEffect } from 'react'
 import Style from "./Style.css";
 import Nav from "./../../Componentes/Nav/Nav";
-import Precios from "./../../Componentes/Precios/Precios";
+import Precios from "../Precios/Precios";
+import Horarios from "../Horarios/Horarios";
 const Inicio = () =>{
 
  useEffect(() => {document.title = "NAS";});
