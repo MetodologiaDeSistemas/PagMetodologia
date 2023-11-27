@@ -4,7 +4,7 @@ import Error404 from "./Componentes/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Galeria from "./Componentes/Galeria/Galeria";
 import Servicios from "./Componentes/Servicios/Servicios";
-import Login from "./Componentes/Login/Login";
+import Login from "./Componentes/Form_Admin/MenuAdmin";
 import HorariosFront from "./Componentes/Horarios/HorariosFront";
 
 
