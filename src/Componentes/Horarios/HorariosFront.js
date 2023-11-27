@@ -23,7 +23,6 @@ function HorariosFront () {
             <th>Miercoles</th>
             <th>Jueves</th>
             <th>Viernes</th>
-            <th>Sabados</th>
           </tr>
         </thead>
         <tbody>
@@ -33,7 +32,6 @@ function HorariosFront () {
             <td> mie <label className="miercoles"></label></td>
             <td>jue <label className="jueves"></label></td>
             <td>vie <label className="viernes"></label></td>
-            <td>sab <label className="sabado"></label></td>
             
           </tr>
           
