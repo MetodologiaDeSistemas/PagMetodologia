@@ -7,9 +7,15 @@ import Precio_Serv from "../Form_precio_serv/Precio_Serv";
 import Nav from "../../Nav/Nav";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Titulo";
+import { useNavigate } from 'react-router-dom'
 
 
-function App() {
+function MenuAdmin() {
+  const navigate = useNavigate();
+  const handleCerrar = () => {
+    // Redirige a la página principal
+    navigate('/');
+  };
   return (
     <>
       <div className="contenpag">
@@ -28,10 +34,13 @@ function App() {
         <br/>
         <br/>
         <br/>
+        <button className='btn_cerrar' type="button" onClick={handleCerrar}>
+          Cerrar Seción
+        </button>
         <br/>
         <Footer/>
       </div>
     </>
   );
 }
-export default App;    
+export default MenuAdmin;    

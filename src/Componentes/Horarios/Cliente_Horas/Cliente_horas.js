@@ -4,8 +4,8 @@ import axios from "axios";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Titulo";
 import Nav from "../../Nav/Nav";
-import Depilacer from "../../Depilacer/Depilacer";
 import Style from "../../Inicio/Style.css";
+import FechaDep from "../../Form_DepiC/FechaDep";
 
 function Cliente_horas() {
   const [horarios, setHorarios] = useState({
@@ -80,7 +80,7 @@ function Cliente_horas() {
         <br />
       </div>
       <div className={Style.Depilacer}>
-        <Depilacer></Depilacer>
+        <FechaDep></FechaDep>
       </div>
       <div className={Style.Footer}>
         {" "}

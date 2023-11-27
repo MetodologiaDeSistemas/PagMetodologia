@@ -1,11 +1,11 @@
 const express = require('express');
 const mongoose = require("mongoose");
 require("dotenv").config();
-const horaRoutes = require ("./Routes/Hora")
-const imgRoutes = require ("./Routes/Imagenes")
-const f_d_Routes = require ("./Routes/Fecha_Dep")
-const validacionUsu = require ("./Routes/Validacion")
-const precio = require ("./Routes/Precios")
+const horaRoutes = require ("./BackEnd/Routes/Hora")
+const imgRoutes = require ("./BackEnd/Routes/Imagenes")
+const f_d_Routes = require ("./BackEnd/Routes/Fecha_Dep")
+const validacionUsu = require ("./BackEnd/Routes/Validacion")
+const precio = require ("./BackEnd/Routes/Precios")
 const morgan = require('morgan');
 const multer = require('multer');
 const { v4: uuid } = require('uuid');

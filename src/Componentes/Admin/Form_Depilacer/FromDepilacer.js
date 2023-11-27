@@ -44,6 +44,7 @@ function Depilacer() {
     <div>
       <div className="margendepi">
         <div className="DipiPispo">
+          
           <div className="aviso">
             <h4>Próxima fecha disponible para la Depilación Definitiva</h4>
             <form onSubmit={handleFormSubmit}>

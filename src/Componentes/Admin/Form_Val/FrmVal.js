@@ -20,7 +20,7 @@ function Login  ()  {
 
       if (data.success) {
         window.alert('Inicio de sesión exitoso');
-        navigate('/Fotos')
+        navigate('/MenuAdmin')
       } else {
         window.alert('Credenciales incorrectas');
       }
@@ -32,7 +32,7 @@ function Login  ()  {
     // Maneja la redirección al hacer clic en "Cancelar"
     const handleCancelar = () => {
       // Redirige a la página principal
-      navigate('/Imagen');
+      navigate('/');
     };
 
   return (
